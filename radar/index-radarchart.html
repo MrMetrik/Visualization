@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Radar Chart</title>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+		
+		<style>
+			body {
+				font-family: 'Open Sans', sans-serif;
+				font-size: 11px;
+				font-weight: 300;
+				fill: #234234;
+				text-align: center;
+				text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+				cursor: default;
+			}
+			
+			.legend {
+				font-family: 'Raleway', sans-serif;
+				fill: #000000;
+			}
+			
+            .content-title{
+                font-size: 28px;
+            }
+
+            .content-text{
+                font-size: 14px;
+                line-height: 1.6;
+            }
+
+            .radarChart{
+                height: 500px;
+            }
+		</style>
+	</head>
+	<body>
+        <div class="container-fluid mt-5">
+            <div class="row mt-4">
+                <!-- Left column for content -->
+                <div class="col-md-5">
+                    <!-- Your content goes here -->
+                    <div class="content-text">
+                        <h2 class="content-title">About the chart</h2>
+                        <p>This radar chart compares the rainfall for Downtown LA, Santa Monica and Long Beach. <br>If we compare different factors, on how rainfall is dependent on various factors, we will see that humidity is really high in places closer to the sea.</p>
+                    </div>
+                </div>
+                <!-- Right column for radar chart -->
+                <div class="col-md-6">
+                    <select id="citySelector" class="form-control">
+                        <option value="Downtown LA">Downtown LA</option> 
+                        <option value="Santa Monica">Santa Monica</option>
+                        <option value="Long Beach">Long Beach</option>
+                    </select>
+                    <div class="radarChart"></div>
+                </div>
+            </div>
+        </div>
+
+		<script src="radar.js"></script>	
+		<script>
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+					
+			 
+			var color = d3.scale.ordinal()
+				.range(["#8A2BE2","#CC333F","#00A0B0", "#EDC951"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 7,
+			  color: color
+			};
+			RadarChart(".radarChart", data, radarChartOptions);
+		</script>
+	</body>
+</html>

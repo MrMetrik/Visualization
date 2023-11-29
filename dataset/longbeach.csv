@@ -1,0 +1,33 @@
+DateTime,CCA 6th Fl Ocean Blvd and Hart AGL,SCSB_46,WindhamAQ,temp,feelslike,dew,humidity,precipitation,windspeed,cloudcover,conditions,description
+10/18/23 0:00,85.0,102.5,95.5,20.8,20.8,16.9,79.5,0.0,14.3,39.0,Partially cloudy,Clearing in the afternoon.
+10/19/23 0:00,82.0,99.0,88.5,21.1,21.2,16.3,76.6,0.0,15.2,26.6,Partially cloudy,Clearing in the afternoon.
+10/20/23 0:00,54.5,67.5,59.5,22.7,22.7,14.8,64.5,0.0,18.3,4.8,Clear,Clear conditions throughout the day.
+10/21/23 0:00,31.5,52.0,33.5,21.8,21.7,14.0,63.2,0.0,18.3,0.3,Clear,Clear conditions throughout the day.
+10/22/23 0:00,16.5,26.0,19.0,19.5,19.5,14.7,74.6,0.0,21.0,30.1,Partially cloudy,Partly cloudy throughout the day.
+10/23/23 0:00,15.0,25.0,20.0,20.0,20.0,14.6,71.7,0.0,15.2,51.3,Partially cloudy,Partly cloudy throughout the day.
+10/24/23 0:00,19.5,35.0,24.0,19.3,19.3,14.6,74.9,0.0,13.5,35.8,Partially cloudy,Partly cloudy throughout the day.
+10/25/23 0:00,24.0,37.5,31.0,19.9,19.9,14.8,72.9,0.0,17.2,84.0,Partially cloudy,Partly cloudy throughout the day.
+10/26/23 0:00,24.5,39.0,30.5,19.9,19.9,13.9,69.0,0.0,19.2,49.1,Partially cloudy,Partly cloudy throughout the day.
+10/27/23 0:00,33.5,52.0,42.0,18.4,18.4,13.4,73.2,0.0,19.7,27.5,Partially cloudy,Partly cloudy throughout the day.
+10/28/23 0:00,44.0,56.0,49.5,17.8,17.8,12.6,72.5,0.0,17.2,9.5,Clear,Clear conditions throughout the day.
+10/29/23 0:00,23.0,40.0,30.5,20.1,19.9,-0.5,37.2,0.0,24.6,1.1,Clear,Clear conditions throughout the day.
+10/30/23 0:00,16.5,34.5,27.5,19.9,19.6,-5.5,20.5,0.0,17.7,3.9,Clear,Clear conditions throughout the day.
+10/31/23 0:00,22.5,41.5,33.5,20.9,20.4,-5.2,21.4,0.0,22.2,3.5,Clear,Clear conditions throughout the day.
+11/1/23 0:00,17.0,31.0,27.5,21.5,21.0,-3.5,20.9,0.0,19.9,3.9,Clear,Clear conditions throughout the day.
+11/2/23 0:00,38.5,54.5,48.5,19.8,19.5,2.1,35.2,0.0,13.9,2.0,Clear,Clear conditions throughout the day.
+11/3/23 0:00,66.5,81.5,70.0,18.7,18.7,7.0,49.8,0.0,13.7,4.9,Clear,Clear conditions throughout the day.
+11/4/23 0:00,79.0,95.5,89.5,18.1,18.1,10.7,66.7,0.0,16.3,13.1,Clear,Clear conditions throughout the day.
+11/5/23 0:00,89.5,102.5,101.5,18.4,18.4,12.6,72.0,0.0,12.8,8.2,Clear,Clear conditions throughout the day.
+11/6/23 0:00,62.5,73.5,67.5,18.0,18.0,13.4,75.2,0.0,14.3,17.7,Clear,Clear conditions throughout the day.
+11/7/23 0:00,12.5,19.0,15.0,18.8,18.8,12.4,67.9,0.0,20.0,48.0,Partially cloudy,Partly cloudy throughout the day.
+11/8/23 0:00,24.0,39.5,32.0,18.2,18.2,7.1,54.3,0.0,12.6,2.5,Clear,Clear conditions throughout the day.
+11/9/23 0:00,20.0,40.0,37.0,18.1,18.0,-1.5,33.0,0.0,18.4,4.2,Clear,Clear conditions throughout the day.
+11/10/23 0:00,42.0,64.0,56.0,16.5,16.5,2.8,42.5,0.0,13.6,0.2,Clear,Clear conditions throughout the day.
+11/11/23 0:00,60.5,77.0,69.5,17.1,16.8,1.9,43.5,0.0,17.4,0.7,Clear,Clear conditions throughout the day.
+11/12/23 0:00,42.0,58.0,55.0,19.3,19.0,1.4,36.4,0.0,14.8,2.5,Clear,Clear conditions throughout the day.
+11/13/23 0:00,62.5,80.0,68.5,17.0,17.0,7.0,55.3,0.0,11.6,7.2,Clear,Clear conditions throughout the day.
+11/14/23 0:00,71.5,89.5,82.0,17.4,17.4,6.2,54.5,0.0,14.9,4.8,Clear,Clear conditions throughout the day.
+11/15/23 0:00,59.5,74.5,67.0,15.7,15.7,9.7,69.7,11.383,14.0,78.5,Rain,Partially cloudy,Partly cloudy throughout the day with rain.
+11/16/23 0:00,40.5,54.5,48.5,18.5,18.5,14.4,77.8,0.0,17.7,56.1,Partially cloudy,Partly cloudy throughout the day.
+11/17/23 0:00,59.5,76.0,66.5,18.0,18.0,14.0,78.4,0.062,17.8,23.2,Rain,Partially cloudy,Partly cloudy throughout the day with early morning rain.
+11/18/23 0:00,19.5,30.0,27.5,18.5,18.5,15.3,81.8,0.024,16.2,81.4,Rain,Partially cloudy,Partly cloudy throughout the day with early morning rain.

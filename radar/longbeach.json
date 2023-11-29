@@ -1,0 +1,38 @@
+{
+    "Week1": [
+        {"axis": "AQI", "value": 0.50},
+        {"axis": "Temperature", "value": 0.20},
+        {"axis": "Dew", "value": 0.15},
+        {"axis": "Humidity", "value": 0.72},
+        {"axis": "Precipitation", "value": 0.0},
+        {"axis": "Windspeed", "value": 0.16},
+        {"axis": "Cloud Cover", "value": 0.26}
+    ],
+    "Week2": [
+        {"axis": "AQI", "value": 0.34},
+        {"axis": "Temperature", "value": 0.19},
+        {"axis": "Dew", "value": 0.06},
+        {"axis": "Humidity", "value": 0.52},
+        {"axis": "Precipitation", "value": 0.0},
+        {"axis": "Windspeed", "value": 0.19},
+        {"axis": "Cloudcover", "value": 0.25}
+    ],
+    "Week3": [
+        {"axis": "AQI", "value": 0.59},
+        {"axis": "Temperature", "value": 0.19},
+        {"axis": "Dew", "value": 0.07},
+        {"axis": "Humidity", "value": 0.55},
+        {"axis": "Precipitation", "value": 0.0},
+        {"axis": "Windspeed", "value": 0.15},
+        {"axis": "Cloudcover", "value": 0.13}
+    ],
+    "Week4": [
+        {"axis": "AQI", "value": 0.54},
+        {"axis": "Temperature", "value": 0.17},
+        {"axis": "Dew", "value": 0.07},
+        {"axis": "Humidity", "value": 0.57},
+        {"axis": "Precipitation", "value": 0.01},
+        {"axis": "Windspeed", "value": 0.15},
+        {"axis": "Cloudcover", "value": 0.23}
+    ]
+}
